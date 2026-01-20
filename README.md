@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm a developer, mainly did Game Development in Unity with C#.<br>I'm great with Java, Python, C#, HTML, CSS, Javascript.<br>
+Hello There! I'm Maz and I'm a CompSci Student at UQU.<br>
 
 
 # 💻 Tech Stack:
