@@ -79,7 +79,7 @@ I like knowing how things work under the hood before reaching for heavy framewor
 |---|---|
 | **Focus** | **Systems & Backend Engineering** |
 | **Stack** | Go (`net/http`, `httputil`) · Concurrency (`sync.RWMutex`) · REST |
-| **Repository** | [github.com/ITSM4Z/High-Performance-API-Gateway](https://github.com/ITSM4Z/High-Performance-API-Gateway) *(update link if needed)* |
+| **Repository** | [github.com/ITSM4Z/go-api-gateway](https://github.com/ITSM4Z/go-api-gateway) |
 
 **What I Built:**
 - **Reverse Proxy & Dynamic Router:** Built a custom router with longest-prefix matching and shared TCP connection pooling (`http.Transport`) to forward traffic across multiple backend services.
