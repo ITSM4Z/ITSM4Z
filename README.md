@@ -88,6 +88,27 @@ I like knowing how things work under the hood before reaching for heavy framewor
 
 </details>
 
+<details open>
+<summary><b>In-Memory Key-Value Store (Redis-Inspired Engine in Go) <i>In Progress</i></b></summary>
+
+<br/>
+
+> A concurrent, in-memory key-value storage engine built from scratch in Go to practice interface design, middleware composition, and thread-safe data structures.
+
+| Attribute | Detail |
+|---|---|
+| **Focus** | **Concurrency, Interfaces & Storage Internals** |
+| **Stack** | Go (Standard Library) · `sync.RWMutex` · Goroutines & Channels · `testing` |
+| **Status** | Actively building |
+
+**What I'm Building:**
+- **Pluggable Storage Engines (`Storer` Interface):** Built both a standard key-value store (supporting `GET`, `SET`, `DELETE`, `INCR`, `KEYS`, and capacity limits) and a TTL store that handles key expiration via lazy eviction.
+- **Composable Middleware Layer:** Wrapped the storage interface with custom logging (cache hit/miss tracking) and metrics middleware to measure operation counts and average read/write latency.
+- **Concurrent Command Dispatcher:** Using `sync.RWMutex` for thread-safe map access alongside goroutines, `sync.WaitGroup`, and buffered error channels to replay and dispatch state commands concurrently.
+- **Unit & Table-Driven Tests:** Writing tests with Go's standard `testing` package to verify edge cases like capacity limits, TTL eviction, and race conditions (`go test -race`).
+
+</details>
+
 ---
 
 ## Current Focus
