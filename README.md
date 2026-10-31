@@ -38,7 +38,7 @@
 
 I'm a **Computer Science student at Umm Al-Qura University** interested in **Backend Development, Systems Programming, and DevOps**.
 
-I like knowing how things work under the hood before reaching for heavy frameworks.
+Driven by the idea of learning how things work under the hood, and behind the curtains.
 
 - **Main stack:** Go, Java (Spring), Python, PostgreSQL, MySQL, and Docker.
 
